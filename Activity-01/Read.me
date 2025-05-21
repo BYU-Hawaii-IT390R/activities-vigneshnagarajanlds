@@ -1,0 +1,28 @@
+1. Which enhancement you chose:
+I chose the enhancement that adds an --ext argument to the script. This allows the program to scan for files with any extension, not just .txt files. For example, I can now scan for .log, .csv, or .md files by using the --ext option when running the script.
+
+2. How to run your script:
+To run the script, you need to open the terminal and type the following command:
+
+bash
+Copy
+Edit
+python scan.py <folder_name> --ext <file_extension>
+Replace <folder_name> with the name of the folder you want to scan, and <file_extension> with the kind of file you are looking for (like txt or log).
+
+If you don’t include the --ext option, the script will look for .txt files by default.
+
+Examples:
+
+bash
+Copy
+Edit
+python scan.py test_root
+(This scans for .txt files in the test_root folder)
+
+bash
+Copy
+Edit
+python scan.py test_root --ext log
+(This scans for .log files in the test_root folder)
+
